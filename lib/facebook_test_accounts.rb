@@ -1,5 +1,11 @@
 require 'trollop'
-require 'facebook_test_accounts/bin'
+require 'httparty'
+require 'lib/facebook_test_accounts/account_creator'
+require 'lib/facebook_test_accounts/bin'
+
 module FacebookTestAccounts
-  # Your code goes here...
+  def self.die(msg, status = 1)
+    $stderr.puts "\n\n#{$0.split(/\//).last}: #{msg}\n"
+    exit(status)
+  end
 end
