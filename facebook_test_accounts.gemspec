@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Peter Brindisi", "frestyl"]
   s.email       = ["npj@frestyl.com", "info@frestyl.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/frestyl/facebook_test_accounts"
   s.summary     = %q{Easily create test accounts for your facebook app}
   s.description = %q{Easily create test accounts for your facebook app}
 
