@@ -3,6 +3,7 @@
 A simple command-line utility to easily create test accounts for your facebook apps. 
 
 Installation:
+    
     > gem install facebook_test_accounts
     
 Usage:
