@@ -1,7 +1,7 @@
 require 'trollop'
 require 'httparty'
-require 'lib/facebook_test_accounts/account_creator'
-require 'lib/facebook_test_accounts/bin'
+require 'facebook_test_accounts/account_creator'
+require 'facebook_test_accounts/bin'
 
 module FacebookTestAccounts
   def self.die(msg, status = 1)

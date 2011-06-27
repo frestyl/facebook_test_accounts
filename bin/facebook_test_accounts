@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'lib/facebook_test_accounts'
+require 'facebook_test_accounts'
 
 FacebookTestAccounts::Bin.run
